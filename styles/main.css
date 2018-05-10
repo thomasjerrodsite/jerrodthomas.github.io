@@ -44,6 +44,8 @@ img {
 footer {
     clear: both;
     font-size: .85rem;
-    
-    
+}
+
+ul {
+  list-style-type: none;
 }
