@@ -2,14 +2,14 @@
 /* This main css file contains the default rules and is geared toward the small/phone view */
 
 * { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
-
+@import url('https://fonts.googleapis.com/css?family=Modern+Antiqua|Oswald');
 body {
   font-size: 16px;
-  ____________  /* Declare the base font-family */
+  font-family: 'Oswald', sans-serif;
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
-  max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+  max-width: 400px;
 }
 
 header {}
