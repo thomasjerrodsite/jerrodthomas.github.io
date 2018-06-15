@@ -1,0 +1,76 @@
+{ box-sizing: flex;}
+
+body {
+    font-size: 16px;
+    font-family: 'Song Myung', serif;
+    width: 320px;
+}
+
+header, nav, main, footer {
+    max-width: 100%;
+}
+
+header {}
+header h1 {
+    margin-top: -200px;
+    margin-left: 200px;
+}
+header img {
+    padding: 0;
+    margin: 10px 0 0 5px;
+    width: 200px;
+}
+
+header h2 {
+    margin-left: 200px;
+    margin-top: -20px;
+}
+
+nav {
+    margin: 200px 0 0 5px;
+}
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #4caf50;
+}
+nav ul li a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav ul li.active a {}
+
+nav ul li a:hover {
+    background-color: #5f0d0a;
+}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+footer {}
+
+section.forecast {
+        visibility: hidden;
+    } 
+
