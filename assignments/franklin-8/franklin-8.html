@@ -2,8 +2,8 @@
 <html lang="en-us">
 <head>
     <script>
-        var dt = new Date();
-        document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d;
     </script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/scripts.js"></script>
@@ -117,7 +117,7 @@
             </p>
             <p class="footer-bar">
                 &copy;2018 | All Rights Reserved | Site Title |
-                <span id="datetime"></span>
+                <p id="demo"></p>
             </p>
             <p id="windchill">
                 High Temp: <input type="text" id="aInputBox">
