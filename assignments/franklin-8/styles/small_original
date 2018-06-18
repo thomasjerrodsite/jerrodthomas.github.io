@@ -1,14 +1,13 @@
-{ box-sizing: flex;}
+{ box-sizing: border-box;}
 
 body {
     font-size: 16px;
     font-family: 'Song Myung', serif;
+    margin-left: 5px;
 }
 
 header, nav, main, footer {
     max-width: 100%;
-    margin-right: 5px;
-    margin-left: 5px;
 }
 
 header {
@@ -29,65 +28,106 @@ header p {
     margin-left: 275px;
 }
 
-nav button {
-    margin: .2rem 2%;
-    background-color: transparent;
-    border: none;
-    font-size: 1.6rem;
-    color: #fff;
+nav {
+    margin: 0px 0 0 0;
 }
 
-nav {
-    background-color: #aa0000;
-    font-family: Verdana, sans-serif;
+nav button {
+    width: 122px;
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+    
 }
 
+nav ul li {
+    float: left;
+}
 nav ul li a {
     display: block;
-    padding: .8rem 2%;
+    color: #000066;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    color: #fff;
-    border-top: 1px solid rgba(255,255,255,0.8);
 }
 
 .active {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #000066;
+    color: #cc0000;
 }
 
-li a:hover {
-    background=color: rgba(0,0,0,0.5);
+nav ul li a:hover:not(.active) {
+    background-color: #999999;
+    color: #cc0000;
 }
 
-nav ul.hide{display: none;}
+nav ul li.active a {
+    color: red;
+}
 
-.clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+nav ul li a:hover {
+    background-color: #999999;
+    color: #cc0000;
+}
 
 main {}
+
+main h1 {}
+
 main h2 {}
+
 main figure {
-    display: none;
+    margin: 0 0 .2rem 2%; width:96%;
 }
 
-main figure img {}
+figcaption {
+    color: olivedrab;
+}
+
+main figure img {
+    border-radius: 10px;
+}
 
 footer {
     background-color: #333;
     color: #ffffff;
+    padding-top: 5px;
 }
 
+footer #contact {
+    padding-left: 5px;
+}
+
+
+#address{
+    margin-left: 5px;
+}
+
+#phone{
+    margin-left: 5px;
+}
+
+#email{
+    margin-left: 5px;
+}
+
+.footer-bar {
+    margin-left: 5px;
+}
+
+#windchill {
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
 section.forecast {
         display: none;
     }
+
 /*----------- Form --------------*/
 
 form fieldset {
@@ -146,9 +186,3 @@ form input.submitBtn {
 textarea {
     width: 100%;
 }
-
-.clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-    }

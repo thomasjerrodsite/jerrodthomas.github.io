@@ -10,5 +10,5 @@ function quadratic() {
     var f = 35.74 + 0.6215 * t - 35.75 * n + 0.4275 * t * n
     
     
-    document.getElementById('outputDiv').innerHTML = 'The windchill is ' + Math.round(f) + '&deg;';
+    document.getElementById('output').innerHTML = 'The windchill is ' + Math.round(f) + '&deg;';
 }
