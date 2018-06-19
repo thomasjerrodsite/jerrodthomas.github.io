@@ -73,7 +73,9 @@ nav ul.hide{display: none;}
     }
 
 main {}
+
 main h2 {}
+
 main figure {
     display: none;
 }
@@ -151,4 +153,18 @@ textarea {
         content: "";
         display: table;
         clear: both;
+    }
+
+#date {
+    color: #fff;
+    display: block;
+}
+
+ #gallery figure {
+        display: block;
+    }
+    
+    #gallery figure img {
+        height: 200px;
+        
     }

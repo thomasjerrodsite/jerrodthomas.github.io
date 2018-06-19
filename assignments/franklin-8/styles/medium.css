@@ -31,5 +31,13 @@
         border-right: 1px solid rgba(0,0,0,0.3);
         padding: .8rem 1rem;
     }
-
-}
+    
+     #gallery figure {
+        display: block;
+    }
+    
+    #gallery figure img {
+        height: 200px;
+    }
+    
+    
