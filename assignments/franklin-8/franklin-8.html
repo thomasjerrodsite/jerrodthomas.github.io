@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <script>
-        var d = new Date();
-        document.getElementById("demo").innerHTML = d;
-    </script>
+    <script src="scripts/date.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/scripts.js"></script>
     <meta charset="utf-8">
@@ -20,7 +17,7 @@
 </head>
 <body onload="windchill">
     <header>
-        <img src="images/franklin02.png" alt="logo">
+        <img src="images/franklin04.png" alt="logo">
         <h1>The Weather Center</h1>
         <p class="subheading">The most accurate forecasts!</p>
     </header>
@@ -31,7 +28,7 @@
             <li><a href="#" class="active">Franklin</a></li>
             <li><a href="#">Greenville</a></li>
             <li><a href="#">Springfield</a></li>
-            <li><a href="#">Storm Center</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
@@ -53,6 +50,7 @@
             </ul>
         </section>
         <section id="icon">
+            <h2>Current Conditions</h2>
             <img src="images/sunny.jpg">
         </section>
         <section class="forecast">
@@ -60,7 +58,7 @@
             <table>
                 <thead>
                     <tr>
-                        <th colspan="10">10 Day Forecast</th>
+                        <th colspan="10" id="day">10 Day Forecast</th>
                     </tr>
                     <tr>
                         <th>Day 1</th>
@@ -91,15 +89,16 @@
                 </tbody>
             </table>
         </section>
-        <article>
+        <article id="history">
             <h2>This Day in History</h2>
             <img src="images/tupolev.jpg" alt="record">
             <p class="town-article">
-                On this day in history the Tupolev Tu-144 becomes the first commercial transport to exceed Mach 2.
+                On this day in history the Tupolev Tu-144 becomes <br>the first commercial transport to exceed Mach 2.
             </p>
+            
         </article>
     </main>
-    <footer id="footer">
+    <footer id="footer" class="clearfix">
         <section class="contact">
             <p id="address">
                 <strong>Address:</strong><br />
@@ -115,18 +114,25 @@
                 <strong>Email:</strong><br />
                 jerrod.thomas@gmail.com
             </p>
-            <p class="footer-bar">
-                &copy;2018 | All Rights Reserved | Site Title |
-                <p id="demo"></p>
-            </p>
+        </section>
+        <section id="copy" class="clearfix">
+            &copy;2018 | All Rights Reserved | Site Title |
+        </section>
+        <section id="date">
+            <p id="demo"></p>
+        </section>
+        <section id="windchill" class="clearfix">
             <p id="windchill">
                 High Temp: <input type="text" id="aInputBox">
                 Windspeed: <input type="text" id="bInputBox">
                 <input type="submit" onclick="quadratic()" value="Compute Windchill">
-                <span id="output"></span>
-                <span id="datetime"></span>
+                <span id="result">
+                    <script>
+                        var now = new Date();
+                        document.getElementById('result').innerHTML = "Now: " + now;
+                    </script>
+                </span>
             </p>
-            
         </section>
     </footer>
     </body>
