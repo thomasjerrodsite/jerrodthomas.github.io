@@ -76,6 +76,10 @@
         height: 200px;
     }
     
+    #myphoto {
+        width: 100%
+    }
+    
     section.today {
         float: left;
     }
