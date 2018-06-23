@@ -32,12 +32,27 @@
         padding: .8rem 1rem;
     }
     
-     #gallery figure {
+    main figure {
         display: block;
     }
     
     #gallery figure img {
         height: 200px;
     }
+    
+    section.today {
+        float: left;
+    }
+    
+    section.icon {
+        float: right;
+        
+    }
+    
+    section {
+        clear: both;
+    }
+    
+}
     
     

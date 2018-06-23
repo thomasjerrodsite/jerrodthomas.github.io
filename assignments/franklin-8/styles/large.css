@@ -4,6 +4,9 @@
         box-shadow: 5px 10px #5f0d0a;
     }
     
+    main img {
+        border-radius: 10px;
+    }
     section.forecast {
         display: block;
     }
@@ -38,6 +41,10 @@
         padding: .8rem 1rem;
     }
     
+    nav ul li a:hover {
+        background-color: #5f0d0a;
+    }
+    
     #history {
         float: right;
         margin-top: -230px;
@@ -60,6 +67,33 @@
     .contact{float: left; padding-left: 3px;}
     #copy {float: right;}
     #date {margin-top: 45px;}
+    #myphoto {
+        display: block;
+    }
+    
+    main figure {
+        display: block;
+    }
+    
+    #gallery figure img {
+        height: 200px;
+    }
+    
+    section.today {
+        float: left;
+    }
+    
+    section.icon {
+        float: right;
+        
+    }
+    
+    section {
+        clear: both;
+    }
+
 }
+
+
     
     
