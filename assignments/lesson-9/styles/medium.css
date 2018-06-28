@@ -33,7 +33,7 @@
     }
     
     main figure {
-        display: block;
+        display: none;
     }
     
     #gallery figure img {

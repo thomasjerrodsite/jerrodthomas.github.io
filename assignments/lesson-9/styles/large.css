@@ -1,22 +1,32 @@
 @media only screen and (min-width: 64em) {
     
     img:hover {
-        box-shadow: 5px 10px #5f0d0a;
+        box-shadow: 5px 5px #5f0d0a;
     }
     
-    main img {
-        border-radius: 10px;
-    }
-    section.forecast {
-        display: block;
+    nav {
+        
     }
     
-     nav, table, footer {
-         background: #0000ff; /* Old browsers */
-         background: -moz-linear-gradient(top, #0000ff 0%, #191970 100%); /* FF3.6-15 */
-         background: -webkit-linear-gradient(top, #0000ff 0%,#191970 100%); /* Chrome10-25,Safari5.1-6 */
-         background: linear-gradient(to bottom, #0000ff 0%,#191970 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000ff', endColorstr='#191970',GradientType=0 ); /* IE6-9 */
+    #hero {
+        margin: 84px -5px;
+        width: 1423px;
+        z-index: -1;
+    }
+    
+    #logo {
+        z-index: 1;
+        width: 200px;
+        margin: 0;
+    }
+
+     nav {
+         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#900090+0,5e3784+100 */
+         background: #900090; /* Old browsers */
+         background: -moz-linear-gradient(top, #900090 0%, #5e3784 100%); /* FF3.6-15 */
+         background: -webkit-linear-gradient(top, #900090 0%,#5e3784 100%); /* Chrome10-25,Safari5.1-6 */
+         background: linear-gradient(to bottom, #900090 0%,#5e3784 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#900090', endColorstr='#5e3784',GradientType=0 ); /* IE6-9 */
     }
     
     nav button {
@@ -42,7 +52,7 @@
     }
     
     nav ul li a:hover {
-        background-color: #5f0d0a;
+        background: linear-gradient(to right, green , #3eac40);
     }
     
     #history {
@@ -59,9 +69,18 @@
         height: 200px;
     }
     
-    table {
-        color: #fff;
-        border-radius 30px;
+     #acme thead tr {background-color: #696969; color: #ffffff;}
+        #acme tbody:first-child {background-color: #696969;}
+        #acme tbody tr:nth-child(odd){background-color: #696969;}
+        #acme tbody tr:nth-child(even){background-color: #696969;}
+        #acme th {
+            background-color: #696969;
+            color: black;
+        }
+        #acme tbody tr:nth-child(odd){background-color: #e7ffed;}
+    
+    .active {
+        background: linear-gradient(to right, #f28f30 , #ff4500);
     }
     
     .contact{float: left; padding-left: 3px;}
@@ -72,6 +91,19 @@
     }
     
     main figure {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    main {
+        border-width: 1px;;
+    }
+    
+    main img {
+        margin-top: 2px;
+        
+    }
+    section.forecast {
         display: block;
     }
     
