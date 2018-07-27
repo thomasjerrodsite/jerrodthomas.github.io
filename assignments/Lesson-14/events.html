@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+    <script src="scripts/scripts.js"></script>
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+		Mountain Spoke
+	</title>
+        <script>
+            $(function() {
+            ${'fieldset'}.css('input', background-color: green;)})
+            
+        </script>
+        <script>
+            $(function(){
+                $('.submitBtn').hover(function(){
+                    $(this).addClass('openSesame');
+                }, function(){
+                    $(this).removeClass('openSesame');
+                }
+                                           )
+            }
+             )
+	</script>
+    </head>
+    <body>
+        <img src="images/mountainspokelogo.png" alt="logo" id="logo">
+        <main class="clearfix">
+            <h1>THE MOUNTAIN SPOKE</h1>
+                <nav class="clearfix">
+                    <button onclick="toggleMenu()">&#9776;</button>
+                    <ul id="primaryNav" class="hide">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="tours.html">TOURS</a></li>
+                        <li><a href=# class="active">EVENTS</a></li>
+                        <li><a href="sales.html">SALES</a></li>
+                        <li><a href="service.html">SERVICE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+            </nav>
+            <img src="images/butte.jpg" id="butte" alt="butte">
+            <!-- Image courtesy of https://www.bikesignup.com/Race/MT/Butte/Butte100MTBRace -->
+            <section id="event">
+                <h2>The Butte 100</h2>
+            </section>
+            <section id="form" class="container">
+                <form method="get" action="thanks.html" class="clearfix">
+                    <fieldset>
+                        <legend><h2>Entry Form</h2></legend>
+                        <label class="label">
+                            Full Name
+                            <input type="text" name="fname" required id="name"><br>
+                        </label>
+                        <label class="label">
+                            Date of Birth
+                            <input type="number" name="birth" placeholder="01/01/1234" required id="birth"><br>
+                        </label>
+                        <label class="label">
+                            Email
+                            <input type="email" name="email" placeholder="someone@mail.com" id="email"><br>
+                        </label>
+                        <label class="label">
+                            Phone 
+                            <input type="tel" name="phone" placeholder="123-867-5309" required id="phone"><br>
+                        </label>
+                        <label class="label">
+                            State/Country
+                            <input type="text" name="state" required id="state"><br>
+                        </label>
+                        <label class="label">
+                            Comments <input type="text" name="state" id="area"><br>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Submit My Info" class="submitBtn">
+                </form>
+            </section>
+        </main>
+        <footer id="footer" class="clearfix">
+            &copy; 2018 THE MOUNTAN SPOKE
+        </footer>
+    </body>
+</html>
