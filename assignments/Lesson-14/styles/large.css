@@ -1,162 +1,29 @@
 @media only screen and (min-width: 64em) {
 	@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Montserrat');
-    /* ALL */
+    body {
+        font-size: 1em;
+        margin: auto;
+    }
+    #banner, #butte {
+        width: 100%;
+      }
     
-    #hero {
-        width: 777px;
+    #index1 {
+        width: 100%;
     }
     
-    /* NAV */   
-    nav button {
-        display: none;
-    }
-    nav {
-		display: block;
-		margin-top: -35px;
-		margin-left: -215px;
-		margin-right: auto;
-		}
-    
-    nav ul.hide{
-        display: block;
+    #index2 {
+        margin: auto;
     }
     
-    nav ul {
-        margin-left: 2%;
-        position: relative;
-    }
-    
-    nav ul li {
-        float: left;
-    }
-    
-	nav ul li a {
-        border: none;
-        /*border-right: 1px solid rgba(0,0,0,0.3);*/
-        padding: .8rem 1rem;
-    }
-    
-    nav, footer {
-        width: 99%;
-    }
-    main { margin-left: 250px;}
-    
-    #hero {
-		display: block;
-        margin-top: 50px;
-        margin-left: 50px;
-        margin-right: auto;
-        width: 50%;
-		}
-		
-	#logo {float: left; margin-left: 150px;}
-    
-    #butte {
-        width: 75%;
+    .topnav {
+        float: right;
+        margin-top: -75px;
     }
     
     #form {
-        margin-top: 300px;
-        width: 75%;
-        
+        margin-left: 15px;
+        margin: auto;
     }
     
-    #thanks {
-        margin: 0 100px;
-    }
     
-    #thanks h1 {
-        margin-left: 100px;
-    }
-    
-    footer {
-        font-family: 'EB Garamond', serif;
-        text-align: center;
-		margin: 600px -50px;
-		
-    }
-    
-    div button {
-        margin-top: 10px;
-        border-radius: 5px;
-    }
-    
-    .toggle {
-        padding: 15px 25px;
-        font-size: 24px;
-        text-align: center;
-        cursor: pointer;
-        outline: none;
-        color: #fff;
-        background-color: purple;
-        border: none;
-        border-radius: 15px;
-        box-shadow: 0 9px darkgreen;
-    }
-    
-    .toggle:hover {background-color: $328320;}
-    
-    .toggle:active {
-        background-color: rebeccapurple;
-        box-shadow: 0 5px #666;
-        transform: translateY(4px);
-    }
-    /* form */
-    .container {
-        width: auto;
-        clear: both;
-    }
-    
-    #name {
-        margin-left: 28px;
-        width: 400px;
-        
-    }
-    #birth {
-        margin-left: 13px;
-        width: 400px;
-        
-    }
-    
-    #email {
-        margin-left: 57px;
-        width: 400px;
-        
-    }
-    
-    #phone {
-        margin-left: 53px;
-        width: 400px;
-        
-    }
-    
-    #state {
-        margin-left: 5px;
-        width: 400px;
-        
-    }
-    
-    #area {
-        width: 400px;
-        height: 500px;
-        margin-left: 25px;
-    }
-    
-    .submitBtn {
-        border-radius: 4px;
-        color: #8AB633;
-        text-align: center;
-        font-size: 28px;
-        width: 200px;
-        margin: 5px;
-        background: rgb(123,7,175); /* Old browsers */
-        background: -moz-radial-gradient(center, ellipse cover, rgba(123,7,175,1) 0%, rgba(83,0,119,1) 100%);
-        background: -webkit-radial-gradient(center, ellipse cover, rgba(123,7,175,1) 0%,rgba(83,0,119,1) 100%);
-        background: radial-gradient(ellipse at center, rgba(123,7,175,1) 0%,rgba(83,0,119,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b07af', endColorstr='#530077',GradientType=1 );
-    }
-    
-    .submitBtn:active {
-        color: #fff;
-        box-shadow: 5px 5px #888888;
-    }
