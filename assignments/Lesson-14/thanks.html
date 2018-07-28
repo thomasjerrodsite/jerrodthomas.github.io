@@ -78,29 +78,34 @@
         </title>
     </head>
 <body>
-    <img src="images/mountainspokelogo.png" alt="logo" id="logo">
-    <main class="clearfix">
-        <h1>THE MOUNTAIN SPOKE</h1>
-        <nav class="clearfix">
-            <button onclick="toggleMenu()">&#9776;</button>
-            <ul id="primaryNav" class="hide">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="tours.html">TOURS</a></li>
-            <li><a href=# class="active">EVENTS</a></li>
-            <li><a href="sales.html">SALES</a></li>
-            <li><a href="service.html">SERVICE</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-        <img src="images/butte.jpg" id="butte">
-        <!-- Image courtesy of https://www.bikesignup.com/Race/MT/Butte/Butte100MTBRace -->
-        <section id="thanks">
+    <div id="index1">
+            <img src="images/mountainspokelogo.png" alt="logo" id="logo">
+            <h1 style="font-size:3vw;" id="title">THE MOUNTAIN SPOKE</h1>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="events.html">Events</a>
+            <a href="sales.html">Sales</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div id="thanks">
             <h1>THANK YOU</h1>
-        </section>
-    </main>
-    
-    <footer id="footer" class="clearfix">
-        &copy; 2018 THE MOUNTAN SPOKE
-    </footer>
+                &copy; 2018 THE MOUNTAN SPOKE
+        </div>
+         <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </body>
 </html>
