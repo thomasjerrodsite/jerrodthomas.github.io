@@ -1,0 +1,16 @@
+@media only screen and (max-width: 300px) {
+    
+    header {
+     text-align: right;   
+    }
+    
+    
+    article {
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 30px;
+    }
+    
+    
+}
