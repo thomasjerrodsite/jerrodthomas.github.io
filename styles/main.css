@@ -1,51 +1,111 @@
-/* CIT 230 - Assignment Portal CSS Template */
-/* You may use #HEX or color names */
+body {
+    @import url('https://fonts.googleapis.com/css?family=Notable');
+}
 
-/* * is a wildcard referring to all elements. */
-* { margin: 0; box-sizing: border-box; } 
+/* header */
 
-body { 
-    font-size: 16px; 
-    line-height: 32px;
-    font-family: Ubuntu, sans-serif;
-    color: #000000;
+header {
+    width: 110px;
+    text-align: center;
+    padding-bottom: 5px;
+    position: fixed;
+    border-radius: 10px;
 }
 
 h1 {
-    font-size: 2rem;
-    color: #a020f0;
-    }
-
-h2 {
-    font-size: 10rem;
     text-align: center;
-    border-bottom: 1px solid #000000;
 }
 
-header, main, footer {
-    margin: 1.25rem auto;
-    padding: .5rem;
-    max-width: 1200px;
+a {
+    text-decoration: none;
+    color: #cc0000;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-header, footer, footer a {
-    text-align: center;
-    background-color: #ffa500;
-    color: #000000;
+a:hover {
+    color: #000066;
+    text-decoration: underline;
+    text-decoration-color: #cc9900;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #000;
+    font-family: 'Notable', sans-serif;
+}
+
+header img {
+    width: 110px;
+    border-bottom: 1px solid #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.left {
+    padding-left: 4px;
+}
+
+#title {
+    margin-left: 100px;
+    /*margin-top: -290px;*/
+    padding-left: 4px;
+    
+}
+
+.cursive {
+    font-family: 'Notable', sans-serif;
+}
+
+/* body */
+
+div {
+    /*position: relative;*/
+    margin-left: 10px;
+}
+
+#main {
+    margin-left: 115px;
+    /*margin-top: -50px;*/
+}
+
+sup {
+    text-decoration: underline;
+}
+
+#main img {
+    border-radius: 10px;
 }
 
 img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img01 {
     width: 200px;
-    height: 273px;
+    float: left;
+    padding-right: 5px;
+    /*margin-left: 10px;*/
+}
+
+#img02 {
+    width: 200px;
     float: right;
-    margin-top: -102px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 
-footer {
-    clear: both;
-    font-size: .85rem;
+#cherry {
+    margin-left: 115px;
+    width: 300px;
 }
 
-ul {
-  list-style-type: none;
+ul li {
+    display: inline;
+    text-decoration: none;
+}
+
+p {
+    margin-top: 0;
 }
