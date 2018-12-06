@@ -1,134 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cedarville+Cursive|Notable');
-body {
-    /*font-family: 'Averia Serif Libre', cursive*/
-}
-
-/* header */
-
-header {
-    text-align: center;
-    width: 100%;
-    margin-top: -5px;
-    background-color: rgba(254,127,156,0.50);
-    padding: 5px 0 5px 0;
-    font-family: 'Notable', sans-serif;
-}
-
-ul {
-    display: flex;
-    width: 50%;
-    margin: auto;
-}
-
-ul li {
-    list-style-type: none;
-    text-decoration: none;
-}
-.top {
-    background-color: rgb(254,127,156);
-    padding: 5px 5px 5px 5px;
-    position: fixed;
-    margin: 5px 100px 0 0 ;
-    border-radius: 5px;
-    font-family: 'Notable', sans-serif;
-    width: 55px;
-    text-align: center;
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #cc0000;
-    padding: 0 5px 0 5px;
-}
-
-ul li a:hover {
-    color: #000066;
-    text-decoration: underline;
-    text-decoration-color: #cc9900;
-}
-
-.active {
-    text-decoration: underline;
-    text-decoration-color: #000;
-}
-
-.left {
-    padding-left: 4px;
-}
-
-#title {
-    margin-left: 100px;
-    /*margin-top: -290px;*/
-    padding-left: 4px;
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cedarville+Cursive');
+@media screen and (min-width: 64em) {
     
-}
-
-.cursive {
-    font-family: 'Cedarville Cursive', cursive;
-    margin-top: 30px;
-    text-align: center;
-}
-
-/* body */
-
-div {
-    /*position: relative;*/
-    margin-left: 65px;
-    margin-right: 10px;
+    body {
+        color: #000;
+        margin: auto;
+        font-size: 1em;
+        background-image: url('../images/58930.jpg');
+    }
     
-}
+    #myTopnav {
+        /*margin-top: -25px;*/
+        text-align: center;
+    }
 
-#main {
-    /*margin-left: 115px;*/
-    /*margin-top: -50px;*/
-}
-
-sup {
-    text-decoration: underline;
-}
-
-/*img {
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 10px;
-}*/
-
-.img01 {
-    height: 225px;
-    float: left;
-    padding-right: 12px;
-}
-
-.img02 {
-    height: 225px;
-    float: right;
-    padding-left: 12px;
-    padding-top: 5px;
-}
-
-#cherry {
-    margin-left: 115px;
-    width: 300px;
-}
-
-
-p {
-    margin-top: 0;
-    text-align: justify;
-    padding-right: 5px;
-}
-
-b {
-    font-size: 175%;
-    font-weight: bolder;
-    font-family: 'Cedarville Cursive', cursive;
-}
-
-footer {
-    text-align: center;
-}
+    .top {
+        background-color: #000066;
+        padding: 5px 5px 5px 5px;
+        position: fixed;
+        margin: 10px 100px 0 0 ;
+        font-family: 'Averia Serif Libre', cursive;
+        width: 55px;
+        text-align: center;
+    }
+    
+    .img01 {
+        height: 300px;
+        padding-right: 10px;
+        float: left;
+    }
+    
+    .img02 {
+        height: 300px;
+        padding-left: 10px;
+        float: right
+    }
+    
+    div {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
