@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cedarville+Cursive');
 @media screen and (min-width: 64em) {
+    
     
     body {
         color: #000;
         margin: auto;
         font-size: 1em;
-        background-image: url('../images/58930.jpg');
+        background-color: #ffd1c3;
     }
     
     #myTopnav {
@@ -39,4 +39,42 @@
         width: 75%;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    #checkbox {
+        opacity: 0;
+    }
+    
+    ul li {
+        display: inline;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000066;
+        font-size: 25px;
+        padding-left: 5px;
+    }
+    
+    a:hover {
+        color: #cc0000;
+        text-decoration: underline;
+        
+        text-decoration-style: wavy;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    #menuToggle {
+        text-align: center;
+    }
+    
+    .container {
+        text-align: justify;
+    }
+    
+    #footer {
+        text-align: center;
     }
