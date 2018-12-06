@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cedarville+Cursive|Notable');
+@media screen and (max-width: 600px) {
+body {
+        color: #000;
+        background-image: url('../images/58930.jpg');
+}
+
+    /* header */
+
+    .topnav {
+        font-family: 'Notable', sans-serif;
+        text-transform: uppercase;
+    }
+
+    a {
+        text-decoration: none;
+        color: #cc0000;
+    }
+
+    .active {
+        text-decoration: underline;
+        text-decoration-color: #000;
+    }
+
+    .left {
+        padding-left: 4px;
+    }
+
+    #title {
+        /*text-align: center;*/
+    }
+
+    .cursive {
+        font-family: 'Cedarville Cursive', cursive;
+    }
+
+    /* body */
+
+    div {
+        text-align: justify;
+    }
+
+    #main {
+        /*margin-left: 115px;*/
+        /*margin-top: -50px;*/
+    }
+
+    sup {
+        text-decoration: underline;
+    }
+
+    .img01 {
+        height: 100px;
+        float: left;
+        padding-right: 6px;
+    }
+
+    .img02 {
+        height: 100px;
+        float: right;
+        padding-left: 6px;
+        /*padding-top: 5px;*/
+    }*/
+
+    p {
+        margin-top: 0;
+        padding-right: 5px;
+        color: #000;
+    }
+
+    .top {
+        display: none;
+    }
+    
+    div {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .topnav a {
+        1em;
+    }
+    
+    footer {
+        text-align: center;
+    }
+}
