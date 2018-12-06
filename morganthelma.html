@@ -4,96 +4,38 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jerrod's Family History</title>
-        <link href='styles/thelmalarge.css' rel='stylesheet' type='text/css'>
-        <link href='styles/thelmasmall.css' rel='stylesheet' type='text/css'>
-        <style>
-            footer {margin-top: 10px;}
-            .topnav {
-                overflow: hidden;
-            }
-            
-            .topnav a {
-                float: left;
-                display: block;
-                color: #000;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                /*font-size: 2em;*/
-            }
-
-            .active {
-                color: #999;
-                text-shadow: 1px 1px 2px #cc0000, 0 0 25px #cc0000, 0 0 5px #cc0000;
-            }
-
-            .topnav .icon {
-                display: flex;
-            }
-
-            .topnav a:hover {
-                
-                text-shadow: 1px 1px 2px #999, 0 0 25px #000066, 0 0 5px #cc0000;
-            }
-            
-            @media screen and (max-width: 600px) {
-                .topnav a:not(:first-child), .dropdown .dropbtn {
-                    display: none;
-                }
-
-                .topnav a.icon {
-                    float: right;
-                    display: block;
-                }
-            }
-
-            @media screen and (max-width: 600px) {
-                .topnav.responsive {position: relative;}
-                .topnav.responsive .icon {
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                }
-
-                .topnav.responsive a {
-                    float: none;
-                    display: block;
-                    text-align: left;
-                }
-
-                .topnav.responsive {float: none;}
-                .topnav.responsive {position: relative;}
-                .topnav.responsive {
-                    display: block;
-                    width: 100%;
-                    text-align: center;
-                }
-            }
-        </style>
+        <link href='style/thelmalarge.css' rel='stylesheet' type='text/css'>
+        <link href='style/thelmasmall.css' rel='stylesheet' type='text/css'>
         <title>
             Jerrod's Family History: Thelma Morgan
         </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive');
+        </style> 
     </head>
     <body>
-        <div id="index1">
-            <img src="images/logp.png" alt="logo" id="logo">
-            <h1 class="cursive">Thelma Morgan</h1>
-        </div>
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="tours.html">Tours</a>
-            <a href="#" class="active">Events</a>
-            <a href="sales.html">Sales</a>
-            <a href="sales.html">Service</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-        <div id="form" class="container">
-        <p>
-            <img src="images/morgan_thelma_01.jpg" class="img01" alt="title">
-                I Thelma Morgan was born in a small town Sanford, Conejos, Colorado on 2 January 1911, a cold day the ninth child of seven living children, five boys and one (1) sister. The oldest brother, James William ded a few weeks after birth, my mother was very sad at the loss of her baby. When Geneva the other sister, nin years old died of diptheria mother and family had been under quarantien for six weeks. When Geneva died my mother told me that when she had to dress that dead child and have her held up to the window to be seen was the hardest thing she had ever done. Mother was grief stricken over this, later another baby was born, a boy, Charles, but mother wanted another girl so she took bottle after bottle of Lydia pink compound to get pregnant after so long a time she finally got pregnant. There was never any doubt in her mind that I would not be a girl. Mother was in the change of life and was 41 years of age. When I arrived all the family was very happy. Mama was in labor a long time. The children stayed in the kitchen. All were worried she was sick so long. Daddy finally came and told them. When they finally found they had a baby sister (afraid I turned out to be a disappointment to them) not really I was really loved by all. I was blessed on February 17, 1911 by Eprhaim Mortensen in Sanford, Conejos, Colorado. One time as a baby, Edna and Lawrence each thought the other had me so therefore I was picked up off the floor un hurt. I gave my mother a bad time. I was always running away, we lived across the street from a canal nd it was usually full of water. Mama was always afraid I'd fall in. One of my very earliest recolections was going out in the garden to play and fell asleep between the rows in the garden. Mama was frantic. One day a neighbor boy that I played with, Frank Saule, we ran off. I remember going to an old vcant house and Frank and I werer sitting in the window when we were found. (We were very very young) When I started school I was sick so much. 
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" / id="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="genealogymain.html"><li>FAMILY HISTORY MAIN</li></a>
+                    <a href="histories.html" class="active"><li>HISTORIES</li></a>
+                    <a href="#"><li>SOURCES</li></a>
+                    <a href="#"><li>RESOURCES</li></a>
+                    <a href="contact.html"><li>CONTACT</li></a>
+                </ul>
+            </div>
+            <div id="index1">
+                <h1 style="font-family: 'Cederville Cursive', cursive;" class="cursive">Thelma Morgan</h1>
+            </div>
+            <div id="form" class="container">
+                <p>
+                    <img src="images/morgan_thelma_01.jpg" class="img01" alt="title">
+                    I Thelma Morgan was born in a small town Sanford, Conejos, Colorado on 2 January 1911, a cold day the ninth child of seven living children, five boys and one (1) sister. The oldest brother, James William ded a few weeks after birth, my mother was very sad at the loss of her baby. When Geneva the other sister, nin years old died of diptheria mother and family had been under quarantien for six weeks. When Geneva died my mother told me that when she had to dress that dead child and have her held up to the window to be seen was the hardest thing she had ever done. Mother was grief stricken over this, later another baby was born, a boy, Charles, but mother wanted another girl so she took bottle after bottle of Lydia pink compound to get pregnant after so long a time she finally got pregnant. There was never any doubt in her mind that I would not be a girl. Mother was in the change of life and was 41 years of age. When I arrived all the family was very happy. Mama was in labor a long time. The children stayed in the kitchen. All were worried she was sick so long. Daddy finally came and told them. When they finally found they had a baby sister (afraid I turned out to be a disappointment to them) not really I was really loved by all. I was blessed on February 17, 1911 by Eprhaim Mortensen in Sanford, Conejos, Colorado. One time as a baby, Edna and Lawrence each thought the other had me so therefore I was picked up off the floor un hurt. I gave my mother a bad time. I was always running away, we lived across the street from a canal nd it was usually full of water. Mama was always afraid I'd fall in. One of my very earliest recolections was going out in the garden to play and fell asleep between the rows in the garden. Mama was frantic. One day a neighbor boy that I played with, Frank Saule, we ran off. I remember going to an old vcant house and Frank and I werer sitting in the window when we were found. (We were very very young) When I started school I was sick so much. 
             </p>
             <p>
                 <img src="images/morgan_thelma_05.jpg" class="img02" alt="Thelma Morgan">
@@ -169,18 +111,9 @@
                 The first LDS (Mormon woman to come to Artesia was Lucille Black Hancock she arrived in 1927 from Tulsa Okla with husband Harold a (non mormon) and 1 girl Thelma or boots in 1931 Thelma Morgan Thomas arrived from Sanford Colo. and JW Thomas a (non mormon)
             </p>
         </div>
-        <footer id="footer" class="clearfix">
+        <div id="footer" class="container">
             <br />Background image <a href='https://www.freepik.com/free-vector/vibrant-pink-watercolor-painting-background_3413201.htm'>designed by Rawpixel.com</a>
-        </footer>
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-            }
-        </script>
+        </div>
+        
     </body>
 </html>
