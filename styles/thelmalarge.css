@@ -8,8 +8,8 @@
         background-color: pink;
         background-image: url('../images/58930.jpg');
         background-attachment: fixed;
-        background-repeat: no-repeat;
-        /*background-position: left;*/
+        background-size: 100%;
+        
     }
     
     #myTopnav {
@@ -52,6 +52,10 @@
         opacity: 0;
     }
     
+    #menuToggle {
+        text-align: center;
+    }
+    
     ul li {
         display: inline;
     }
@@ -61,21 +65,21 @@
         color: #000066;
         font-size: 25px;
         padding-left: 5px;
+        text-align: center;
     }
     
     a:hover {
-        color: #cc0000;
-        text-decoration: underline;
-        
-        text-decoration-style: wavy;
+        color: #cc9900;
+        text-shadow: 2px 2px 4px #000, 0 0 50px #999, 0 0 10px #cc0000;
     }
     
     h1 {
         text-align: center;
     }
     
-    #menuToggle {
-        text-align: center;
+    .active {
+        color: #cc0000;
+        text-shadow: 2px 2px 4px #000, 0 0 50px #999, 0 0 10px #cc9900;
     }
     
     .container {
@@ -84,8 +88,4 @@
     
     #footer {
         text-align: center;
-    }
-    
-    ,cursive {
-        font-family: 'Cederville Cursive', cursive;
     }
