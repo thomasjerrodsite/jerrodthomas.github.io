@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|IM+Fell+English|Uncial+Antiqua');
+        
+body {
+    font-family: 'IM Fell English', serif;
+}
+
+.cursive {
+    font-family: 'Cedarville Cursive', cursive;
+    text-shadow: 5px 5px 5px #5f0d0a;
+}
+
+a {
+    font-family: 'Uncial Antiqua', cursive;
+    font-variant: small-caps;
+}
