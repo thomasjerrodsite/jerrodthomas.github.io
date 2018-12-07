@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Cedarville+Cursive|Notable');
 @media screen and (max-width: 600px) {
     body {
         color: #000;
-        margin: auto;
-        font-size: 1em;
-        background-color: pink;
+        /*background-color: #ffd1c3;*/
         background-image: url('../images/marble.jpg');
         background-attachment: fixed;
-        background-repeat: no-repeat;
     }
     
     a {
@@ -63,22 +59,20 @@
     #menuToggle span:first-child {
         transform-origin: 0% 0%;
     }
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
+    
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
 
 /* 
  * Transform all the slices of hamburger
  * into a crossmark.
  */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #cc0000;
-}
+#menuToggle input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #cc0000;
+    }
 
 /*
  * But let's hide the middle one.
@@ -143,8 +137,6 @@
     }
     
     
-    .cursive {
-            font-family: 'Cederville Cursive', cursive;
-        }
+    
     
 }
