@@ -5,7 +5,11 @@
         color: #000;
         margin: auto;
         font-size: 1em;
-        background-color: #ffd1c3;
+        background-color: pink;
+        background-image: url('../images/58930.jpg');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /*background-position: left;*/
     }
     
     #myTopnav {
@@ -41,6 +45,9 @@
         margin-right: auto;
     }
     
+    p {
+        
+    }
     #checkbox {
         opacity: 0;
     }
@@ -77,4 +84,8 @@
     
     #footer {
         text-align: center;
+    }
+    
+    ,cursive {
+        font-family: 'Cederville Cursive', cursive;
     }
