@@ -8,7 +8,7 @@
         background-image: url('../images/john.jpg');
         background-attachment: fixed;
         background-size: 100%;
-        background-repeat: no-repeat;
+        
     }'
     '
     #thelma {
@@ -45,13 +45,13 @@
         position: absolute;
         top: -7px;
         left: -5px;
-        cursor: pointer;
+        cursor: grab;
         opacity: 0; /* hide this */
         z-index: 2; /* and place it over the hamburger */
         -webkit-touch-callout: none;
     }
     
-    /* Just a quick hamburger */
+        /* Just a quick hamburger */
     
     #menuToggle span {
         display: block;
@@ -97,8 +97,9 @@
         margin: -100px 0 0 -50px;
         padding: 50px;
         padding-top: 125px;
-        background: #ededed;
+        background-image: url('../images/john.jpg');
         list-style-type: none;
+        text-align: center;
         -webkit-font-smoothing: antialiased;
 
         /* to stop flickering of text in safari */
@@ -142,13 +143,12 @@
         margin-left: auto;
     }
     
+    i {
+        display: none;
+        opacity: 0;
+    }
+    
     .top {
         display: none;
     }
-    
-    
-    img {
-        
-    }
-    
 }
