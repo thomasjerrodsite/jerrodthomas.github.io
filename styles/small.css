@@ -5,11 +5,17 @@
     
     #john {
         background-color: #ffd1c3;
+        background-image: url('../images/john.jpg');
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }'
     '
     #thelma {
+        background-color: pink;
         background-image: url('../images/marble.jpg');
         background-attachment: fixed;
+        background-size: 100%;
     }
     
     a {
@@ -71,16 +77,16 @@
     }
     
     #menuToggle input:checked ~ span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #cc0000;
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #cc0000;
     }
     
-    #menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
+    #menuToggle input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    
     #menuToggle input:checked ~ span:nth-last-child(2) {
         transform: rotate(-45deg) translate(0, -1px);
     }
@@ -121,15 +127,19 @@
     }
     
     .img01 {
-        float: left;
-        padding-right: 5px;
-        height: 150px;
+        /*-float: left;
+        padding-right: 5px;*/
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .img02 {
-        float: right;
-        padding-left: 5px;
-        height: 150px;
+        /*float: right;
+        padding-left: 5px;*/
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
     }
     
     .top {
@@ -137,6 +147,8 @@
     }
     
     
-    
+    img {
+        
+    }
     
 }
