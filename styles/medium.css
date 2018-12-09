@@ -10,11 +10,11 @@ body {
         background-attachment: fixed;
         background-size: 100%;
         
-    }'
+    }
     '
     #thelma {
         background-color: pink;
-        background-image: url('../images/marble.jpg');
+        background-image: url('marble.jpg');
         background-attachment: fixed;
         background-size: 100%;
     }
