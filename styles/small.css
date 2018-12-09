@@ -101,6 +101,7 @@
         list-style-type: none;
         text-align: center;
         -webkit-font-smoothing: antialiased;
+        border-radius: 25px;
 
         /* to stop flickering of text in safari */
 
