@@ -1,4 +1,4 @@
-@media only screen and (min-device-width: 750px) and (max-device-width: 1000px) and (orientation:portrait) {
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) and (orientation:portrait) {
 
 body {
         color: #000;
@@ -148,7 +148,7 @@ body {
     
     )
     
-    @media only screen and (min-device-width: 801px) and (max-device-width: 1000px) and (orientation:landscape) {
+    @media only screen and (min-device-width: 600px) and (max-device-width: 1000px) and (orientation:landscape) {
 
 body {
         color: #000;
