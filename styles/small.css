@@ -1,4 +1,5 @@
-body {
+@media only screen and (max-width: 63em) { 
+        body {
         color: #000;
     }
     
@@ -307,3 +308,4 @@ body {
     .top {
         display: none;
     }
+}
