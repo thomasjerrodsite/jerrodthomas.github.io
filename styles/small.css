@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) { 
+@media screen and (max-width: 600x) { 
         body {
         color: #000;
     }
@@ -9,8 +9,8 @@
         background-attachment: fixed;
         background-size: 100%;
         
-    }'
-    '
+    }
+    
     #thelma {
         background-color: pink;
         background-image: url('../images/marble.jpg');
