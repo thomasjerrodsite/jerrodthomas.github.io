@@ -122,25 +122,15 @@ body {
         text-align: justify;
     }
     
-    .img01 {
-        /*-float: left;
-        padding-right: 5px;*/
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 10px;
-    }
+    img {
+            /*-float: left*/
+            padding: 5px;
+            width: 100%;
+            margin-right: auto;
+            margin-left: auto;
+        }
     
-    .img02 {
-        /*float: right;
-        padding-left: 5px;*/
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        border-radius: 10px;
-    }
-    
-    i {
+     i {
         display: none;
         opacity: 0;
     }
