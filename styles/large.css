@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
     
     #thelma {
         color: #000;
@@ -7,7 +7,7 @@
         background-color: pink;
         background-image: url('../images/marble.jpg');
         background-attachment: fixed;
-        background-size: 100%;
+        background-size: cover;
     }
     
     #john {
@@ -17,7 +17,18 @@
         background-color: #ffd1c3;
         background-image: url('../images/john.jpg');
         background-attachment: fixed;
-        background-size: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #sena {
+        color: #fff;
+        margin: auto;
+        font-size: 1em;
+        background-color: #ffd1c3;
+        background-image: url('../images/denmark.jpg');
+        background-attachment: fixed;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     
@@ -25,10 +36,14 @@
         /*margin-top: -25px;*/
         text-align: center;
     }
+    
+    .cursive {
+        font-size: 72px;
+    }
 
     .top {
         position: fixed;
-        margin: 10px 0 0 40px;
+        margin: 100px 0 0 40px;
         width: 55px;
         text-align: center;
     }
@@ -46,11 +61,22 @@
     }
     
     div {
-        width: 75%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         color: #000;
         margin: auto;
+        text-align: justify;
+        
+    }
+    
+    .container {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        color: #555;
+        margin: auto;
+        text-align: justify;
     }
     
     #checkbox {
@@ -68,33 +94,95 @@
     a {
         text-decoration: none;
         color: #000066;
-        font-size: 25px;
         padding-left: 5px;
         text-align: center;
     }
     
-    a:hover {
-        color: #cc9900;
-        text-shadow: 2px 2px 4px #000, 0 0 50px #999, 0 0 10px #cc0000;
+    nav a {
+        font-size: 29px;
     }
     
-    h1 {
-        text-align: center;
+    a:hover {
+        color: #cc9900;
+        
     }
     
     .active {
         color: #cc0000;
-        text-shadow: 2px 2px 4px #000, 0 0 50px #999, 0 0 10px #cc9900;
-    }
-    
-    .container {
-        text-align: justify;
+        background-color: rgba(153,153,153,0.5);
+        padding: 0 10px 0 10px;
+        border-radius: 200px;
     }
     
     #footer {
         text-align: center;
     }
     
-    i {
-        font-style: normal;
+    ol {
+        list-style-position: inside;
+    }
+    
+    /* HISTORIES MAIN */
+    
+    #history {
+        background-color: #fff;
+    }
+    
+    .history {
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box {
+        border-left: 1px dotted #cc0000;
+        border-bottom: 1px dotted #cc0000;
+        border-top: 0;
+        border-right: 0;
+        border-bottom-left-radius: 10px;
+        margin-left: 67px;
+        margin-top: -145px;
+        height: 300px;
+        padding-left: 5px;
+        width: 500px;
+        text-align: left;
+    }
+    
+    #who {
+        /* Safari */ -webkit-transform: rotate(-90deg);
+        /* Firefox */ -moz-transform: rotate(-90deg);
+        /* IE */ -ms-transform: rotate(-90deg);
+        /* Opera */ -o-transform: rotate(-90deg);
+        /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        background-color: #cc0000;
+        color: #fff;
+        height: 30px;
+        width: 103px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-left: 0;
+        margin-top: 150px;
+        padding-bottom: 3px;
+    }
+    
+    #where {
+        /* Safari */ -webkit-transform: rotate(-90deg);
+        /* Firefox */ -moz-transform: rotate(-90deg);
+        /* IE */ -ms-transform: rotate(-90deg);
+        /* Opera */ -o-transform: rotate(-90deg);
+        /* Internet Explorer */ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        background-color: #cc0000;
+        color: #fff;
+        height: 30px;
+        width: 103px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-left: 0;
+        margin-top: 150px;
+        padding-bottom: 3px;
+    }
+    
+    section a:hover {
+        color: #cc9900;
+        text-decoration: underline;
     }
