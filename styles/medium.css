@@ -125,7 +125,7 @@ body {
     img {
             /*-float: left*/
             padding: 5px;
-            width: 100%;
+            width: 200px;
             margin-right: auto;
             margin-left: auto;
         }
