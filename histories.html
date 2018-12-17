@@ -3,47 +3,63 @@
     <head>
         <title>Jerrod's Site | Famioy History</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="style/genealogy.css">
+        <link rel="stylesheet" type="text/css" href="styles/small.css">
+        <link rel="stylesheet" type="text/css" href="styles/medium.css">
+        <link rel="stylesheet" type="text/css" href="styles/large.css">
+        <link rel="stylesheet" type="text/css" href="styles/type.css">
     </head>
-    <body>
-        <header>
-            <img src="images/logp.png" alt="Jerrod's Family Tree"/>
-            <h1>Jerrod's Family History</h1>
-        </header>
-        <div id="hero">
-            &nbsp;
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="histories.html">Histories</a></li>
-                <li><a href="types.html">Photos</a></li>
-                <li><a href="#">Sources</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <body id="history">
+        <nav id="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" id="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="genealogymain.html">Genealogy</a></li>
+                    <li><a href="histories.html" class="active">Histories</a></li>
+                    <li><a href="#">Sources</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#top" class="top>">Top</a></li>
+                </ul>
+            </div>
         </nav>
-        <main>
-            <figure>
-                <a href="morganthelma.html"><img src="images/morgan_thelma_01.jpg" alt="Thelma Morgan"></a>
-                <figcaption>Thelma Morgan</figcaption>
-            </figure>
-            <figure>
-                <img src="images/morgan_john.jpg" alt="John Morgan">
-            </figure>
-            <figure>
-                <img src="images/thomas_jamesdonald001.jpg" alt="Beekeeping">
-            </figure>
-            <figure>
-                <img src="images/cogburn_page.jpg" alt="Beekeeping">
-            </figure>
-            <blockquote>
-                "The most important work we do in this life is in our homes with our families."
-                <br>
-                <i>Jeffery R. Holland</i>
-            </blockquote>
-        </main>
-        <footer>
-            &nbsp;
-        </footer>
+        <header>
+            <h1 id="jerrod">Jerrod's Family History</h1>
+        </header>
+        <div id="who" class="rotate">
+            <h1>people</h1>
+        </div>
+        <div class="box">
+            <section>
+                <a href="jensenjens.html">Jens Nielson Jenen</a> <i>by Edna Davenport</i>
+            </section>
+            <section>
+                <a href="jensenniels.html">Niel Kjeldson Jenen</a> <i>by Edna Davenport</i>
+            </section>
+            <section>
+                <a href="jensensena.html">Nielsena Katrina Jensen</a> <i>by Thelma Morgan Thomas</i>
+            </section>
+            <section>
+                <a href="morganjohn.html">John Morgan</a> <i>by Thelma Morgan Thomas</i>
+            </section>
+            <section>
+                <a href="morganthelma.html">Thelma Morgan</a> <i>by Thelma Morgan Thomas</i>
+            </section>
+            <section>
+                <a href="nielsenmettie.html">Mettie Katrina Nielsen</a> <i>by Edna Davenport</i>
+            </section>
+            <section>
+                <a href="pedersenkaren.html">Karen Pedersen</a> <i>by Thelma Morgan Thomas</i>
+            </section>
+        </div>
+        <div class="rotate" id="where">
+            <h1>places</h1>
+        </div>
+        <div class="box">
+            <a href="sanford">Sanford, Conejos County, Colorado</a>
+        </div>
     </body>
 </html>
