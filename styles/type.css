@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|IM+Fell+English|Uncial+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Charm|IBM+Plex+Serif');
         
 body {
-    font-family: 'IM Fell English', serif;
+    font-family: 'IBM Plex Serif', serif;
 }
 
 .cursive {
-        font-family: 'Cedarville Cursive', cursive;
+        font-family: 'Charm', cursive;
         text-shadow: 5px 5px 5px #5f0d0a;
         text-align: center;
         
@@ -15,6 +15,6 @@ h1 {
         font-size: 72px;
 }
 a {
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Black Han Sans', sans-serif;
     font-variant: small-caps;
 }
