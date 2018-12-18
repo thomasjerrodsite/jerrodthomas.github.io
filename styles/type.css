@@ -8,9 +8,12 @@ body {
         font-family: 'Cedarville Cursive', cursive;
         text-shadow: 5px 5px 5px #5f0d0a;
         text-align: center;
-        font-size: 72px;
+        
 }
 
+h1 {
+        font-size: 72px;
+}
 a {
     font-family: 'Uncial Antiqua', cursive;
     font-variant: small-caps;
