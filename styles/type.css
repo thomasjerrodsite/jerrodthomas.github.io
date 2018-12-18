@@ -5,9 +5,10 @@ body {
 }
 
 .cursive {
-    font-family: 'Cedarville Cursive', cursive;
-    text-shadow: 5px 5px 5px #5f0d0a;
+        font-family: 'Cedarville Cursive', cursive;
+        text-shadow: 5px 5px 5px #5f0d0a;
         text-align: center;
+        font-size: 72px;
 }
 
 a {
