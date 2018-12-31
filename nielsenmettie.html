@@ -1,40 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>
-            Jerrod's Family History: Mettie Katrina Nielsen
-        </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Jerrod's Family History</title>
         <link href='styles/small.css' rel='stylesheet' type='text/css'>
-        <link href='styles/medium.css' rel='stylesheet' type='text/css'>
+        <!--<link href='styles/medium.css' rel='stylesheet' type='text/css'>-->
         <link href='styles/large.css' rel='stylesheet' type='text/css'>
         <link href='styles/type.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/nav.css">
+        <title>
+            Jerrod's Family History: John William Morgan
+        </title>
     </head>
-    <body id="sena">
-        <nav role="navigation">
-            <div id="menuToggle">
-                <input type="checkbox" id="checkbox">
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="genealogymain.html">Genealogy</a></li>
-                    <li><a href="histories.html" class="active">Histories</a></li>
-                    <li><a href="#">Sources</a></li>
-                    <li><a href="#">Resources</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#top" class="top>">Top</a></li>
-                </ul>
+
+    <body id="mettie">
+        <div class="topnav" id="myTopnav">
+            <a href="#home">home</a>
+            <a href="#news">artwork</a>
+            <a href="#news">blog</a>
+            <a href="#contact">contact</a>
+            <div class="dropdown active">
+                <button class="dropbtn">genealogy
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="histories.html">histories</a>
+                    <a href="#">photos</a>
+                    <a href="#">resources</a>
+                </div>
             </div>
-        </nav>
-        <div class="top" class="continer">
-            <a href="#sena">back to top</a>
         </div>
+        <!--<div class="top" class="continer">
+            <a href="#sena">back to top</a>
+        </div>-->
         <div id="index1">
-            <h1 class="cursive">Mettie <i>Katrina</i> Jensen</h1>
+            <h1 class="cursive female">Mettie <i>Katrina</i> Jensen</h1>
         </div>
         <div id="form">
             <p>
@@ -57,8 +59,16 @@
         </div>
         <div id="footer" class="container">
             Written by Edna Davenport <br />
-            Background image downloaded from <a href="https://wallpapercave.com/w/wp1894108">wallpapercave</a>
         </div>
-         
+       <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </body>
 </html>
