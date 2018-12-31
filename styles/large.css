@@ -1,40 +1,7 @@
 @media only screen and (min-width: 800px) {
     
-    #thelma {
-        color: #000;
-        margin: auto;
-        font-size: 1em;
-        background-color: pink;
-        background-image: url('../images/marble.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-    }
-    
-    #john {
-        color: #fff;
-        margin: auto;
-        font-size: 1em;
-        background-color: #ffd1c3;
-        background-image: url('../images/john.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    #sena {
-        color: #fff;
-        margin: auto;
-        font-size: 1em;
-        background-color: #ffd1c3;
-        background-image: url('../images/denmark.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    
-    #myTopnav {
-        /*margin-top: -25px;*/
-        text-align: center;
+    body {
+        margin: 0;
     }
     
     .top {
@@ -42,6 +9,10 @@
         margin: 100px 0 0 40px;
         width: 55px;
         text-align: center;
+    }
+    
+    #mettie img {
+        height: 175px;
     }
     
     .img01 {
@@ -64,7 +35,7 @@
         border-top-right-radius: 10px;
     }
     
-    div {
+    #form {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -83,42 +54,11 @@
         text-align: justify;
     }
     
-    #checkbox {
-        opacity: 0;
-    }
-    
-    #menuToggle {
-        text-align: center;
-    }
-    
     ul li {
         display: inline;
     }
     
-    a {
-        text-decoration: none;
-        color: #000066;
-        padding-left: 5px;
-        text-align: center;
-    }
-    
-    nav a {
-        font-size: 29px;
-    }
-    
-    a:hover {
-        color: #cc9900;
-        
-    }
-    
-    .active {
-        color: #cc0000;
-        background-color: rgba(153,153,153,0.5);
-        padding: 5px 10px 0 10px;
-        border-radius: 200px;
-    }
-    
-    #footer {
+   #footer {
         text-align: center;
     }
     
@@ -161,7 +101,7 @@
         background-color: #cc0000;
         color: #fff;
         height: 30px;
-        width: 103px;
+        /*width: 103px;*/
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         margin-left: 0;
@@ -190,3 +130,16 @@
         color: #cc9900;
         text-decoration: underline;
     }
+    
+    .image {
+        float: right;
+        margin-right: -300px;
+        width: 200px;
+        /*height: 300px;*/
+        border-radius: 10px;
+        /*border: 1px dotted #cc0000;*/
+    }
+    
+    /*.names {
+        float: left;
+    }*/
