@@ -1,48 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Jerrod's Site | Family History</title>
+        <title>Jerrod's Site | Famioy History</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="styles/genealogy.css">
+        <link href='styles/small.css' rel='stylesheet' type='text/css'>
+        <!--<link href='styles/medium.css' rel='stylesheet' type='text/css'>-->
+        <link href='styles/large.css' rel='stylesheet' type='text/css'>
+        <link href='styles/type.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles/nav.css">
+        <title>
+            Jerrod's Family History: Thelma Morgan
+        </title>
     </head>
-    <body>
-        <header>
-            <img src="images/logp.png" alt="Jerrod's Family Tree"/>
-            <h1>Jerrod's Family History</h1>
-        </header>
-        <div id="hero">
-            &nbsp;
+    <body id="thelma">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">home</a>
+            <a href="#news">artwork</a>
+            <a href="#news">blog</a>
+            <a href="#contact">contact</a>
+            <div class="dropdown active">
+                <button class="dropbtn">genealogy
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="histories.html">histories</a>
+                    <a href="#">photos</a>
+                    <a href="#">resources</a>
+                </div>
+            </div>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
-        <nav>
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="histories.html">Histories</a></li>
-                    <li><a href="photoes.html">Photos</a></li>
-                    <li><a href="#">Sources</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        <main>
-            <figure>
-                <img src="images/Thomas Jerrod Lee/age_006.jpg" alt="Baby Me">
-            </figure>
-            <figure>
-                <img src="images/thomas_jw_01.jpg" alt="Papa and Grandma">
-            </figure>
-            <figure>
-                <img src="images/Cogburn_carolynmaxine_001.jpg" alt="Meemaw">
-            </figure>
-            <figure>
-                <img src="images/cogburn_page.jpg" alt="Cogburn">
-            </figure>
-            <blockquote>
-                "The most important work we do in this life is in our homes with our families."
-                <br>
-                <i>Jeffery R. Holland</i>
-            </blockquote>
-        </main>
-        <footer>
-            &nbsp;
-        </footer>
+        <header>
+            <h1 id="jerrod">Jerrod's Family History</h1>
+        </header>
+        <div id="who" class="rotate">
+            <h2>people</h2>
+        </div>
+        <div class="box">
+            <p>
+                <img src="images/thomas_garnett.jpg" alt="Garnett Thomas with nephew Jimmie Don" class="image">
+                <a href="jensenjens.html">Jens Nielson Jensen</a> <i>by Edna Davenport</i>
+                <br />
+                <a href="jensenniels.html">Niel Kjeldson Jenen</a> <i>by Edna Davenport</i>
+                <br />
+                <a href="jensensena.html">Nielsena Katrina Jensen</a> <i>by Thelma Morgan Thomas</i>
+                <br />
+                <a href="morganjohn.html">John Morgan</a> <i>by Thelma Morgan Thomas</i>
+                <br />
+                <a href="morganthelma.html">Thelma Morgan</a> <i>by Thelma Morgan Thomas</i>
+                <br />
+                <a href="nielsenmettie.html">Mettie Katrina Nielsen</a> <i>by Edna Davenport</i>
+                <br />
+                <a href="pedersenkaren.html">Karen Pedersen</a> <i>by Thelma Morgan Thomas</i>
+            </p>
+        </div>
+        <div class="rotate" id="where">
+            <h2>places</h2>
+        </div>
+        <div class="box">
+            <p>
+                <img src="images/thomas_jamesdonald002.jpg" alt="James D. Thomas" class="image">
+                <a href="sanford">Sanford, Conejos County, Colorado</a>
+            </p>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
     </body>
 </html>
